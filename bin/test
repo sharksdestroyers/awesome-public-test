@@ -1,7 +1,7 @@
 #!/bin/bash
 echo "Running tests..."
 echo "Pass"
-sleep 3m
+sleep 1m
 exit 0
 # echo "Fail"
 # exit 1
