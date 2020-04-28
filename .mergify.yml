@@ -1,0 +1,9 @@
+pull_request_rules:
+  - name: automatic merge
+    conditions:
+      - label=queue-for-merge
+      - status-success=continuous-integration/codeship
+    actions:
+      merge:
+        strict: true
+        method: squash
